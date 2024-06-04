@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+   <!-- Vídeo de fundo -->
+   <video autoplay muted loop id="video-background">
+    <source src="FUNDO SITE.mp4" type="video/mp4">
+  </video>
+   <!-- Barra de navegação com vídeo de fundo -->
+   <nav class="navbar navbar-expand-lg">
+    <div class="video-container">
+      <video autoplay muted loop id="navbar-video">
+        <source src="FUNDO SITE.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="container">
+      <a class="navbar-brand mx-auto" href="#">
+        <img src="images/8 Sem Título_20220714190419 (1).png" alt="LOGO" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio" style="color: white;">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre" style="color: white;">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#videoclipes" style="color: white;">Videoclipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projetos" style="color: white;">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato" style="color: white;">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Seção Início -->
+  <div id="inicio" class="section">
+    <div class="container">
+      <div class="row">
+        <!-- Conteúdo à esquerda -->
+        <div class="col-md-6">
+          <div class="inicio-text">
+            <span class="destaque">Olá, eu sou</span>
+            <br>
+            <span class="nome">Iago Rafael</span>
+            <br>
+            <span class="profissao">Estudante de Cinema e Audiovisual</span>
+          </div>
+        </div>
+        <!-- Imagem à direita -->
+        <div class="col-md-6 imagem-direita">
+          <video autoplay muted loop class="img-fluid">
+            <source src="FOTO INICIO.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--SEÇÃO SOBRE -->
+  <div id="sobre" class="section">
+    <div class="container">
+        <div class="row">
+            <!-- Imagem à esquerda -->
+            <div class="col-md-6">
+                <img src="images/imagem-sobre/IMG-20240420-WA0028-3.jpg" alt="Iago Rafael olhando uma paisagem" class="img-fluid">
+            </div>
+            <!-- Texto à direita -->
+            <div class="col-md-6">
+                <span class="sobre">SOBRE MIM</span>
+                <br>
+                <span class="sobre-texto">Olá, é um prazer ter você por aqui, meu nome é Iago Rafael, um jovem de São Paulo que se interessou pelo mundo audiovisual e desde então não consegue se ver em outro lugar. Já realizei trabalhos de edição de vídeo, sendo o mais famoso deles o clipe e o visualizer da música "Caipirinha de Limão 🍋". </span>
+                <!-- Video abaixo do texto -->
+                <video  autoplay muted loop width="100%" height="auto">
+                    <source src="videos/MVI_2889 (1).MP4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!--SEÇÃO VIDEOCLIPES -->
+  <div id="videoclipes" class="section">
+    <div class="container">
+        <span class="titulo-videoclipe">Videoclipes</span>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="video-wrapper">
+                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/Ljvp0-1oruU?si=OXM6CnAxhqYUEwhv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <p class="nome-videoclipe">Onde Anda Você</p>
+                <p class="nome-artista">Tiago Nacarato</p>
+            </div>
+            <div class="col-md-4" style="padding-bottom: 20px;">
+                <div class="video-wrapper">
+                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/oz3PaZClvEw?si=yowfE3QRcRwq2WCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <p class="nome-videoclipe">Eu sei, eu sei amor.</p>
+                <p class="nome-artista">D4VI</p>
+            </div>
+            <div class="col-md-4" >
+                <div class="video-wrapper">
+                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/5XiHjKhkgsc?si=w5JNEuRgeYhkKeIN" title="YouTube video player"   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p class="nome-videoclipe">Caipirinha de Limão</p>
+                <p class="nome-artista">Clube Dezenove</p>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!--SEÇÃO PROJETOS -->
+  <div id="projetos" class="container">
+    <span class="projeto">Projetos</span>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+                <video class="card-img-top" muted loop>
+                    <source src="HÁ MUITO TEMPO (ATRÁS) - CURTA.mp4" type="video/mp4">
+                </video>
+                <div class="card-body">
+                    <h5 class="card-title">Há Muito Tempo (Atrás)</h5>
+                    <p class="card-text">O curta Há Muito Tempo (Atrás), conta a luta de Luna contra bloqueios criativos e memórias do passado ao mesmo tempo que ela se reconecta com sua paixão pela música e com uma antiga colega de escola, Jéssica. Enquanto enfrenta sua timidez e os fantasmas do que poderia ter sido, Luna encontra em Jéssica não apenas uma fonte de inspiração, mas também uma chance de finalmente expressar seus sentimentos reprimidos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+                <video class="card-img-top" muted loop>
+                    <source src="EU (não) CONSIGO RESPIRAR - CURTA_1.mp4" type="video/mp4">
+                </video>
+                <div class="card-body">
+                    <h5 class="card-title">EU (NÃO) CONSIGO RESPIRAR</h5>
+                    <p class="card-text">No curta experimento "Eu (não) Consigo Respirar", somos apresentados à vida de Luísa, uma jovem aparentemente apática e distante de si mesma. Ela vive em um constante embate com sua própria imagem, refletida tanto fisicamente quanto nas vozes cruéis que ecoam em sua mente.
+                      A narrativa mergulha nos tormentos internos de Luísa, enquanto ela é confrontada com comentários cruéis e julgamentos superficiais sobre sua aparência.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+              <video class="card-img-top" muted loop>
+                  <source src="RETROSPECTIVA JOVEM INUSITADO.mp4" type="video/mp4">
+              </video>
+              <div class="card-body">
+                  <h5 class="card-title">JOVEM INUSITADO ESPM</h5>
+                  <p class="card-text">O Programa Jovem Inusitado da ESPM nasceu com o intuito de oferecer a estudantes da rede estadual de ensino o fortalecimento da aprendizagem com foco em resultados, capacitação técnica e comportamental.
+                  Os estudantes acessam a infraestrutura da ESPM e aprimoram habilidades e conhecimentos em Língua Portuguesa, Matemática, Projeto de Vida e Tecnologias.
+                  Os estudantes também recebem apoio no aprendizado, intenções acadêmicas e profissionais.
+                    </p>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+            <video class="card-img-top" muted loop>
+                <source src="NÓS SOMOS O MAL - VIDEOARTE.mp4" type="video/mp4">
+            </video>
+            <div class="card-body">
+                <h5 class="card-title">NÓS SOMOS O MAL</h5>
+                <p class="card-text">"Nós somos o mal" é uma crítica à sociedade, adotando uma abordagem completamente experimental para recriar a estética do VHS. Esta obra busca associar essa estética ao sensacionalismo que envolve assassinos em série e eventos horríveis gerados por um ou mais indivíduos. O som, proveniente de entrevistas, adquire um chocante visual, longe de ser receptivo ou confortável, reforçando o debate proposto por essa videoarte, o ser humano contemporâneo é evidentemente mal ou apenas concebe o mal?
+                  </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+            <video class="card-img-top" muted loop>
+                <source src="[EU NUNCA CONHECI A FOME] - DOC.mp4" type="video/mp4">
+            </video>
+            <div class="card-body">
+                <h5 class="card-title">[EU NUNCA CONHECI A FOME]</h5>
+                <p class="card-text">Um documentário performático de apenas 1 minuto busca provocar uma reflexão sobre o valor da alimentação e o egoísmo presente no ser humano contemporâneo. O protagonista e idealizador do documentário compartilha a comovente história de sua avó, revelando as dificuldades enfrentadas durante um período trágico de sua vida. Esta narrativa pessoal é entrelaçada com imagens poderosas, convidando o espectador a considerar as profundas ramificações do nosso comportamento em relação à comida e à empatia.
+                  </p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+  <!--SEÇÃO CONTATO -->
+  <div id="contato" class="contato-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 left-content">
+          <h2>Entre em Contato</h2>
+          <p>Caso tenha interesse em qualquer um dos meus serviços, entre em contato. Estarei disponível em qualquer um dos meios abaixo. </p>
+          <div class="contact-info">
+            <p>iagorafael794@gmail.com</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/iagurafael/"><img src="images/redes sociais logo/logotipo-do-linkedin.png" alt="linkedin"></a>
+              <a href="https://www.instagram.com/iagurafael/"><img src="images/redes sociais logo/logotipo-do-instagram (1).png" alt="instagram"></a>
+              <a href="https://www.tiktok.com/@iagurafael"><img src="images/redes sociais logo/logotipo-do-tiktok.png" alt="tiktok"></a>
+              <a href=""><img src="images/redes sociais logo/logotipo-do-youtube.png" alt="youtube"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 right-content">
+          <img src="images-projeto/BASTIDORES CLIPE(2).JPG" alt="Imagem de Contato">
+          <img src="images-projeto/BASTIDORES CLIPE(1).JPG" alt="">
+          <img src="images-projeto/EU NÃO CONSIGO RESPIRAR (1).JPG" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
